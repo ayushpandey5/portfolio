@@ -1,5 +1,5 @@
 import { FaJs, FaReact, FaNode, FaAws, FaDocker, FaGit, FaCss3Alt } from 'react-icons/fa'; // Icons from react-icons
-import { SiTypescript, SiTailwindcss, SiJest, SiChai } from 'react-icons/si'; // Additional icons
+import { SiTypescript, SiTailwindcss, SiJest } from 'react-icons/si'; // Additional icons
 
 export const Skills = () => {
   const allSkills = [
@@ -13,7 +13,6 @@ export const Skills = () => {
     { name: 'Git', icon: <FaGit className="w-10 h-10 text-red-500" /> },
     { name: 'Docker', icon: <FaDocker className="w-10 h-10 text-blue-400" /> },
     { name: 'Jest', icon: <SiJest className="w-10 h-10 text-red-600" /> },
-    { name: 'Chai', icon: <SiChai className="w-10 h-10 text-red-400" /> }
   ];
 
   return (
